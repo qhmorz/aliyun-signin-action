@@ -24,9 +24,9 @@ jobs:
 
         with:
 
-          REFRESH_TOKENS: 65277250b4d34ba48c0790f89ef61d63${{ secrets.REFRESH_TOKENS }}
+          REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
 
-          GP_TOKEN: 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${{ secrets.GP_TOKEN}}
+          GP_TOKEN: ${{ secrets.GP_TOKEN}}
 
           PUSH_TYPES: 'PUSHPLUS'
 
@@ -38,9 +38,9 @@ jobs:
 
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
-          PUSHPLUS_TOKEN: 89d1f315d3e44541a885b931b0131f4f${{ secrets.PUSHPLUS_TOKEN }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
 
-          PUSHPLUS_TOPIC: aliyun${{ secrets.PUSHPLUS_TOPIC }}
+          PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
 
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
 
